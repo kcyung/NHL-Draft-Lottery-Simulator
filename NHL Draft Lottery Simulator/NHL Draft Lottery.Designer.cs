@@ -72,6 +72,7 @@
             // 
             // UI_BTN_GenerateCombos
             // 
+            this.UI_BTN_GenerateCombos.Enabled = false;
             this.UI_BTN_GenerateCombos.Location = new System.Drawing.Point(12, 37);
             this.UI_BTN_GenerateCombos.Name = "UI_BTN_GenerateCombos";
             this.UI_BTN_GenerateCombos.Size = new System.Drawing.Size(102, 23);
@@ -99,6 +100,7 @@
             // 
             // UI_BTN_Draw
             // 
+            this.UI_BTN_Draw.Enabled = false;
             this.UI_BTN_Draw.Location = new System.Drawing.Point(12, 66);
             this.UI_BTN_Draw.Name = "UI_BTN_Draw";
             this.UI_BTN_Draw.Size = new System.Drawing.Size(121, 57);
@@ -109,6 +111,7 @@
             // 
             // UI_BTN_Reset
             // 
+            this.UI_BTN_Reset.Enabled = false;
             this.UI_BTN_Reset.Location = new System.Drawing.Point(120, 9);
             this.UI_BTN_Reset.Name = "UI_BTN_Reset";
             this.UI_BTN_Reset.Size = new System.Drawing.Size(75, 23);
@@ -245,6 +248,7 @@
             // 
             // UI_BTN_Result
             // 
+            this.UI_BTN_Result.Enabled = false;
             this.UI_BTN_Result.Location = new System.Drawing.Point(12, 129);
             this.UI_BTN_Result.Name = "UI_BTN_Result";
             this.UI_BTN_Result.Size = new System.Drawing.Size(102, 23);

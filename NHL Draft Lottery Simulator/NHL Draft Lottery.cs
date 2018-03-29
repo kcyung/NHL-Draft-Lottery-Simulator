@@ -65,6 +65,11 @@ namespace NHL_Draft_Lottery_Simulator
                     return;
                 }
 
+                UI_BTN_Draw.Enabled = true;
+                UI_BTN_GenerateCombos.Enabled = true;
+                UI_BTN_Reset.Enabled = true;
+                UI_BTN_Result.Enabled = true;
+
                 // Sort teams by name and update combo box to display each team
                //*********** UI_CB_SelectTeam.Items.Add("Default");
                 LottoTeams = LottoTeams.OrderBy(o => o.TeamName).ToList();
